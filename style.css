@@ -1,0 +1,114 @@
+/* Set box sizing to border box*/
+{
+    box-sizing: border-box;
+}
+
+/* Reset body margin, padding and set font*/
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #D8D8D8;
+}
+
+ul{
+    margin: 0;
+    padding: 0;   
+}
+
+/* Header */
+header {
+    background: #562B08;
+    color: #fff;
+    padding-top:10px;
+    border-bottom: #D8D8D8 solid 2px;
+
+}
+.profile-image{
+    Height:40vh;
+    Width: 100%;
+    Object-fit: contain;
+    Object-position: center;
+ }
+
+.profile-image img {
+    Height: 100%;
+    Width: 100%;
+}
+
+
+nav a {
+  
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .current a{
+    font-weight: buttonhighlight;
+    color: #647E68;
+}
+
+nav a:hover{
+    color: #D8D8D8;
+    font-weight: bold;
+}
+
+section{
+     min-height: 80px;
+}
+
+.about-me{
+    background-color: #182747;
+    text-align: center;
+    color: #fff;
+}   
+
+.services {
+    background-color: #647E68;
+    margin-top: 1px;
+    align-items: center;
+    align-content: center;
+}
+
+.projects{
+    background-color: #000000;
+    color: #fff;
+}
+.project-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.project-item{
+    width: 30%;
+    border: 3px solid #647E68;
+    border-radius: 10px;
+    height: 380px;
+    background-color: #D8D8D8;
+}
+
+.project-item img{
+    width: 90%;
+    height: 90%;
+    margin: 0 20px;
+    padding: 0;
+    border-bottom: solid 3px #647E68;
+    align-items: center;
+    align-self: center;
+    object-fit: scale-down;
+    
+}
+
+.projects h3{
+    line-height: 2;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 20px;
+    
+}
